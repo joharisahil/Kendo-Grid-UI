@@ -9,15 +9,8 @@ const BooleanCell = (props) => {
 };
 
 function App() {
-  const [result, setResult] = useState(bikeStations);
-  const [dataState, setDataState] = useState();
-  const [skip, setSkip] = useState(0);
-  const [take, setTake] = useState(10);
-
-  const onPageChange = (event) => {
-    setSkip(event.page.skip);
-    setTake(event.page.take);
-  };
+  const [dataState, setDataState] = useState({ skip: 0, take: 10 });
+  const [result, setResult] = useState(process(bikeStations, dataState));
 
   const onDataStateChange = (event) => {
     setDataState(event.dataState);
@@ -29,12 +22,8 @@ function App() {
       style={{
         height: "800px",
       }}
-      //  data={result.slice(skip, skip + take)} used for slicing the grid UI
       data={result}
       pageable={true}
-      skip={skip}
-      take={take}
-      onPageChange={onPageChange}
       total={bikeStations.length}
       filterable={true}
       onDataStateChange={onDataStateChange}
