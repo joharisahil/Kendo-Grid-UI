@@ -19,9 +19,6 @@ export default function GridElement() {
 
   return (
     <Grid
-      style={{
-        height: "675px",
-      }}
       data={result}
       pageable={true}
       total={bikeStations.length}
