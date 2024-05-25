@@ -20,7 +20,7 @@ function App() {
   return (
     <Grid
       style={{
-        height: "800px",
+        height: "675px",
       }}
       data={result}
       pageable={true}
