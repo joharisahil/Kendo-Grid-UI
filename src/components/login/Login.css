@@ -1,11 +1,10 @@
-.login-main{
+/* .login-main{
     display: flex;
   }
   
   .login-left{
     flex-grow: 1;
     height: 100vh;
-    /* background-color: #f1fcf8; */
     background-color: #030303;
   
     display: flex;
@@ -182,4 +181,18 @@
   .login-bottom-p a:hover{
     text-decoration: underline;
   }
-  
+   */
+   .navbar-text-style{
+    color:#012970 !important;
+    padding-left: 45px;
+    height: 60px;
+   }
+
+   .body{
+
+    background-color: #f0f4f4;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    /* width: 100vh; */
+   }
