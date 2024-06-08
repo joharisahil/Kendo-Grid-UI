@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Login.css";
 // import Image from "../assets/image.png";
-// import ERP_New from "../../assets/ERP_New.png";
+// import EMS from "../../assets/EMS.jpeg";
 // import Logo from "../../assets/Logo.png";
 // import GoogleSvg from "../assets/icons8-google.svg";
 
@@ -90,6 +90,11 @@ const Login = () => {
         <div className="d-flex justify-content-center align-items-center flex-grow-1 description ">
           <div className="row w-100">
             <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
+              {/* <img
+                src={EMS}
+                alt="EMS"
+                style={{ width: "400px", height: "400px" }}
+              /> */}
               <h1>
                 Education Management System
                 <br />
