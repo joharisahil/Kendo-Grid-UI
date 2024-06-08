@@ -248,6 +248,7 @@
   
   .lead {
     font-size: 1.25rem;
+    margin-top: 3rem;
   }
   
   .vh-100 {
@@ -265,4 +266,10 @@
   .text {
     color: #012970;
 
+  }
+
+  .copyright{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 12px;
   }

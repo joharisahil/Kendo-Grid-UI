@@ -103,10 +103,9 @@ const Login = () => {
                 <span className="text">for your institute</span>
               </h1>
               <p className="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eveniet, itaque accusantium odio, soluta, corrupti aliquam
-                quibusdam tempora at cupiditate quis eum maiores libero
-                veritatis? Dicta facilis sint aliquid ipsum atque?
+                Welcome to our Education Management System! Seamlessly integrate
+                ERP, LMS, and attendance monitoring to streamline administrative
+                tasks and enhance the learning experience. Login now!
               </p>
             </div>
             <div className="col-md-6 d-flex justify-content-center">
@@ -149,9 +148,7 @@ const Login = () => {
                         </label>
                       </div>   
                     </div> */}
-                    <h4 className="text-center mb-4">
-                      Education Management System
-                    </h4>
+                    <h4 className="text-center mb-4">Welcome back!!</h4>
                     <div className="form-group mb-3">
                       <label htmlFor="username">Username</label>
                       <input
@@ -191,6 +188,13 @@ const Login = () => {
                     <span>
                       Don't have an account? <a href="#">Register here</a>
                     </span>
+                  </div>
+                  <div className="copyright">
+                    <div>
+                      Powered by
+                      <br />
+                      techeefy.com
+                    </div>
                   </div>
                 </div>
               </div>
