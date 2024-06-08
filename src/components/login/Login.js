@@ -81,13 +81,122 @@ const Login = () => {
     //   </div>
     // </div>
     <>
-      <div className="body">
-        <nav className="navbar bg-body">
+      {/* <div className="body">
+        <nav className="navbar bg-body navbar-shadow">
           <div className="container-fluid">
             <h1 className="navbar-text-style navbar-text fw-bold ">techeefy</h1>
           </div>
         </nav>
-        sahil{" "}
+      </div> */}
+      <div className="d-flex flex-column vh-100">
+        <nav className="navbar navbar-light bg-light shadow">
+          <a className="navbar-brand" href="#">
+            techeefy.com
+          </a>
+        </nav>
+        <div className="d-flex justify-content-center align-items-center flex-grow-1 description ">
+          <div className="row w-100">
+            <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
+              <h1>
+                Education Management System
+                <br />
+                <span className="text">for your institute</span>
+              </h1>
+              <p className="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet, itaque accusantium odio, soluta, corrupti aliquam
+                quibusdam tempora at cupiditate quis eum maiores libero
+                veritatis? Dicta facilis sint aliquid ipsum atque?
+              </p>
+            </div>
+            <div className="col-md-6 d-flex justify-content-center">
+              <div className="card">
+                <div className="card-body">
+                  <form>
+                    {/* <div className="form-group mb-3">
+                      <div
+                        className="btn-group d-flex w-100"
+                        role="group"
+                        aria-label="User type"
+                      >
+                        <input
+                          type="radio"
+                          className="btn-check"
+                          name="userType"
+                          id="teacher"
+                          autoComplete="off"
+                          defaultChecked
+                        />
+                        <label
+                          className="btn btn-outline-primary w-50"
+                          htmlFor="teacher"
+                        >
+                          Teacher
+                        </label>
+
+                        <input
+                          type="radio"
+                          className="btn-check"
+                          name="userType"
+                          id="admin"
+                          autoComplete="off"
+                        />
+                        <label
+                          className="btn btn-outline-primary w-50"
+                          htmlFor="admin"
+                        >
+                          Admin
+                        </label>
+                      </div>   
+                    </div> */}
+                    <h4 className="text-center mb-4">
+                      Education Management System
+                    </h4>
+                    <div className="form-group mb-3">
+                      <label htmlFor="username">Username</label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="username"
+                      />
+                    </div>
+                    <div className="form-group mb-3">
+                      <label htmlFor="password">Password</label>
+                      <input
+                        type="password"
+                        className="form-control"
+                        id="password"
+                      />
+                    </div>
+                    <div className="form-check mb-3">
+                      <input
+                        type="checkbox"
+                        className="form-check-input"
+                        id="rememberMe"
+                      />
+                      <label className="form-check-label" htmlFor="rememberMe">
+                        Remember me
+                      </label>
+                    </div>
+                    <button type="submit" className="btn btn-primary w-30">
+                      Sign in
+                    </button>
+                  </form>
+                  <div className="mt-3 ">
+                    <a href="#" style={{ color: " #6C757D" }}>
+                      Forgot password?
+                    </a>
+                  </div>
+                  <div className="mt-2">
+                    <span>
+                      Don't have an account? <a href="#">Register here</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
