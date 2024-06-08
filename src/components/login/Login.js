@@ -90,11 +90,6 @@ const Login = () => {
         <div className="d-flex justify-content-center align-items-center flex-grow-1 description ">
           <div className="row w-100">
             <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
-              {/* <img
-                src={EMS2}
-                alt="EMS2"
-                style={{ width: "700px", height: "400px" }}
-              /> */}
               <h1>
                 Education Management System
                 <br />
