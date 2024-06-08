@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Login.css";
 // import Image from "../assets/image.png";
-// import Logo from "../assets/logo.png";
+import ERP_New from "../../assets/ERP_New.png";
+import Logo from "../../assets/Logo.png";
 // import GoogleSvg from "../assets/icons8-google.svg";
 // import { FaEye } from "react-icons/fa6";
 // import { FaEyeSlash } from "react-icons/fa6";
@@ -12,12 +13,12 @@ const Login = () => {
   return (
     <div className="login-main">
       <div className="login-left">
-        <img src="https://via.placeholder.com/150" alt="" />
+        <img src={Logo} alt="Logo" />
       </div>
       <div className="login-right">
         <div className="login-right-container">
           <div className="login-logo">
-            <img src="https://via.placeholder.com/150" alt="" />
+            <img src={ERP_New} alt="ERP_New" />
           </div>
           <div className="login-center">
             <h2>Welcome back!</h2>

@@ -5,7 +5,8 @@
   .login-left{
     flex-grow: 1;
     height: 100vh;
-    background-color: #E9E9E9;
+    /* background-color: #f1fcf8; */
+    background-color: #030303;
   
     display: flex;
     justify-content: center;
@@ -51,7 +52,7 @@
   }
   
   .login-logo img{
-    width: 50px;
+    width: 120px;
   }
   
   .login-center h2{
