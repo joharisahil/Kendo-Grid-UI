@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Login.css";
 // import Image from "../assets/image.png";
-// import EMS from "../../assets/EMS.jpeg";
+// import EMS2 from "../../assets/EMS2.jpeg";
 // import Logo from "../../assets/Logo.png";
 // import GoogleSvg from "../assets/icons8-google.svg";
 
@@ -91,9 +91,9 @@ const Login = () => {
           <div className="row w-100">
             <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
               {/* <img
-                src={EMS}
-                alt="EMS"
-                style={{ width: "400px", height: "400px" }}
+                src={EMS2}
+                alt="EMS2"
+                style={{ width: "700px", height: "400px" }}
               /> */}
               <h1>
                 Education Management System
