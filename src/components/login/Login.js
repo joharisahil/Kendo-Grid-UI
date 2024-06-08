@@ -9,7 +9,7 @@ import "./Login.css";
 // import { FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 
 const Login = () => {
-  // const [showPassword, setShowPassword] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   return (
     // <div className="login-main">
@@ -81,13 +81,6 @@ const Login = () => {
     //   </div>
     // </div>
     <>
-      {/* <div className="body">
-        <nav className="navbar bg-body navbar-shadow">
-          <div className="container-fluid">
-            <h1 className="navbar-text-style navbar-text fw-bold ">techeefy</h1>
-          </div>
-        </nav>
-      </div> */}
       <div className="d-flex flex-column vh-100">
         <nav className="navbar navbar-light bg-light shadow">
           <a className="navbar-brand" href="#">
@@ -160,7 +153,7 @@ const Login = () => {
                     <div className="form-group mb-3">
                       <label htmlFor="password">Password</label>
                       <input
-                        type="password"
+                        type={showPassword ? "text" : "password"}
                         className="form-control"
                         id="password"
                       />
@@ -168,11 +161,15 @@ const Login = () => {
                     <div className="form-check mb-3">
                       <input
                         type="checkbox"
+                        checked={showPassword}
+                        onChange={() => {
+                          setShowPassword(!showPassword);
+                        }}
                         className="form-check-input"
                         id="rememberMe"
                       />
                       <label className="form-check-label" htmlFor="rememberMe">
-                        Remember me
+                        Show password
                       </label>
                     </div>
                     <button type="submit" className="btn btn-primary w-30">
