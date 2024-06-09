@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Login.css";
-// import Image from "../assets/image.png";
 import Google_logo from "../../assets/Google_logo.jpeg";
 import Logo from "../../assets/Logo.png";
-// import Logo from "../../assets/Logo.png";
-// import GoogleSvg from "../assets/icons8-google.svg";
-
-// import { GoEyeClosed, GoEye } from "react-icons/go";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 
 const Login = () => {
