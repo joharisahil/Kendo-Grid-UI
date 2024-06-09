@@ -225,7 +225,7 @@ const Login = () => {
               </div>
               <div className="row">
                 <small>
-                  Don't have account? <a href="#">Sign Up</a>
+                  Don't have account? <a href="#">Contact Us</a>
                 </small>
               </div>
             </div>
